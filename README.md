@@ -7,7 +7,7 @@
         The inputs are the person's height in centimetres and weight in kilograms
         The output is their weight divided by their height in meters squared. 
 
-[**Link to Code**](/https://github.com/ssteffens/pands-problem-sheet/blob/main/bmi.py/)
+[**Link to Code**](https://github.com/ssteffens/pands-problem-sheet/blob/main/bmi.py)
 
 <br />
 
