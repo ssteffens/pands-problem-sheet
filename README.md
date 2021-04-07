@@ -6,6 +6,9 @@
         The inputs are the person's height in centimetres and weight in kilograms
         The output is their weight divided by their height in meters squared. 
 
+**References:**
+    No external references used
+
 [**Link to Code**](https://github.com/ssteffens/pands-problem-sheet/blob/main/bmi.py)
 
 <br />
@@ -16,6 +19,7 @@
     Write a program that asks a user to input a string and outputs every second letter in reverse order.
 
 **References:** 
+    https://www.w3schools.com/python/python_howto_reverse_string.asp
 
 [**Link to Code**](/tbc/)
 
@@ -30,6 +34,7 @@
 <br />
 
 **References:** 
+    https://stackoverflow.com/questions/17757450/how-to-print-a-list-with-integers-without-the-brackets-commas-and-no-quotes
 
 [**Link to Code**](/tbc/)
 
