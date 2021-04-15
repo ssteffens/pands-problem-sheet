@@ -30,5 +30,5 @@ while number != 1:                      # Specifies that loops runs until number
 
 # Third step: Output the values stored in the "numbers" list using the print() function. 
 
-print(*numbers, sep=' ')                # Prints the list of numbers without brackets and separated by space 
+print(*numbers, sep=" ")                # Prints the list of numbers without brackets and separated by space 
                                         # Solution found here: https://stackoverflow.com/questions/17757450/how-to-print-a-list-with-integers-without-the-brackets-commas-and-no-quotes

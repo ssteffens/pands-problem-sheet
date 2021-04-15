@@ -17,14 +17,16 @@
     # Once the square number is larger than the number entered, the function stops and adds all square roots identified so far into a list (rootslist). 
     # The last (root) number added the the rootslist is used as x0. 
 
-    # Note that this method only works for numbers equal to or larger than 1. If the entered number was smaller than 1, the rootslist would get populated with 0, resulting in X0 = 0.
+    # Note that this method only works for numbers equal to or larger than 1. If the entered number was smaller than 1, the rootslist would get populated with 0, resulting in x0 = 0.
     # The calculation in the second part of the program would then return an invalid result with divisor 2*x0 = 0. To prevent this scenario, the x0 value for numbers <1 is set to 1 by default.
 
 
 # Consideration 2: 
     # The second part of the function carries out the calculation as per Newton's method. 
-        # x1 = x0 - (f(x0)/f'(x0)) = x0 - ((x0**2 - a)/(2*x0)  
-        # The result of x1 is then re-entered into the formula (replacing x0) to calculate x2, etc.
+        # xnew = xprev - (f(xprev)/f'(xprev)) = xprev - ((xprev ** 2 - number)/(2*xprev))
+        # Example for calculating x1: 
+            # x1 = x0 - (f(x0)/f'(x0)) = x0 - ((x0**2 - a)/(2*x0)
+            # The result of x1 is then re-entered into the formula (replacing x0) to calculate x2, etc.
         # This program uses 5 iterations of the calculation loop. 
 
 
@@ -45,11 +47,11 @@ def sqrt():
     if number < 1:                                              # If the float number is less than 1, 
         rootslist.append(1)                                         # 1 is added to the rootslist to be used as the first estimate
     else:                                                       # If the float number is 1 or higher,
-        for i in range(0,round(number+1)):                          # for every integer between 0 and the inputted number (the root cannot be bigger than the square number)
-            square = i*i                                            # calculate the square number of i
-            if square > number:                                     # and compares the result to the inputted number. Once the square is bigger than the number entered, 
-                break                                               # the function stops.
-            rootslist.append(i)                                     # All numbers i up to this point are added to the rootslist
+        for i in range(0,round(number+1)):                          # for every integer i between 0 and the inputted number (the root cannot be bigger than the square number):
+            square = i*i                                                # calculate the square number of i
+            if square > number:                                         # and compare the result to the inputted number. Once the square is bigger than the number entered, 
+                break                                                   # the function stops.
+            rootslist.append(i)                                         # All numbers i up to this point are added to the rootslist
 
     x0 = rootslist[-1]                                          # The last entry to the rootslist (indicated by -1) is set as x0 for the calculation.  
 
@@ -57,7 +59,8 @@ def sqrt():
 # Part 2 of the function carries out the calculation approximating the square root. 
 # Number of iterations: 5
 
-    xprev = x0                                                  #
+    xprev = x0                                                  # Sets xprev to the value of x0 so that it can be used in the below calculation. 
+                                                                # Note that this step is only added to document the thought process, from a programming perspective it would be sufficient to set xprev to the last entry of the rootslist.
     count = 1                                                   # Sets the iteration counter to 1
 
     while count < 6:                                            # While the iteration counter is less than 6, 
@@ -71,7 +74,7 @@ def sqrt():
 
 # Third step: Call function sqrt().
 # Output the identified square root using the print() function. 
-# For better readability the output result has been rounded to 2 decimals.
+# For better readability, the output result has been rounded to 2 decimals.
 
 squarer = sqrt()
 print("The square root of {} is approx. {:.2f}".format(number, squarer))

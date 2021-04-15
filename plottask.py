@@ -17,8 +17,8 @@ ypointsG = xpoints * xpoints                            # function g(x) = x**2
 ypointsH = xpoints * xpoints * xpoints                  # function h(x) = x**3
 
 
-# Third step: Plot the functions using matplotlib, using different colours and labels for easier differentiation.
-# Configure the plot output by adding axis labels, a legend and xticks
+# Third step: Plot the functions using the matplotlib.plot() function. Labels and different colours are used for easier differentiation.
+# Configure the plot output by adding axis labels, a legend and xticks.
 # References used: 
     # For printing superscript: https://stackoverflow.com/questions/8651361/how-do-you-print-superscript-in-python
     # For adding x-axis ticks marks using whole number values: https://stackoverflow.com/questions/17574420/how-can-i-set-x-axis-tick-marks-with-only-whole-numbers

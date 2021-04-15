@@ -7,7 +7,7 @@
 
 # First step: Capture the string using the input() function.
 
-sentence = input('Please enter a sentence: ')
+sentence = input("Please enter a sentence: ")
 
 
 # Second step: Output every second letter of the string in reverse order using the print() function and slice syntax [start:end:step]. 
