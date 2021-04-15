@@ -6,8 +6,6 @@
         The inputs are the person's height in centimetres and weight in kilograms
         The output is their weight divided by their height in meters squared. 
 
-**References:**
-    No external references used
 
 [**Link to Code**](https://github.com/ssteffens/pands-problem-sheet/blob/main/bmi.py)
 
@@ -18,10 +16,8 @@
 **Instructions:**  
     Write a program that asks a user to input a string and outputs every second letter in reverse order.
 
-**References:** 
-    https://www.w3schools.com/python/python_howto_reverse_string.asp
 
-[**Link to Code**](/tbc/)
+[**Link to Code**](https://github.com/ssteffens/pands-problem-sheet/blob/main/secondstring.py)
 
 <br />
 
@@ -33,10 +29,7 @@
         Have the program end if the current value is one.  
 <br />
 
-**References:** 
-    https://stackoverflow.com/questions/17757450/how-to-print-a-list-with-integers-without-the-brackets-commas-and-no-quotes
-
-[**Link to Code**](/tbc/)
+[**Link to Code**](https://github.com/ssteffens/pands-problem-sheet/blob/main/collatz.py)
 
 <br />
 
@@ -45,9 +38,7 @@
 **Instructions:**  
     Write a program that outputs whether or not today is a weekday. 
 
-**References:** 
-
-[**Link to Code**](/tbc/)
+[**Link to Code**](https://github.com/ssteffens/pands-problem-sheet/blob/main/weekday.py)
 
 <br />
 
@@ -57,7 +48,7 @@
     Write a program that takes a positive floting-point number as input and outputs an approximation of its square root. 
     Create a function called <tt>sqrt<\tt> that does this. 
 
-[**Link to Code**](/tbc/)
+[**Link to Code**](https://github.com/ssteffens/pands-problem-sheet/blob/main/squareroot.py)
 
 <br />
 
@@ -67,7 +58,7 @@
     Write a program that reads in a text file and outputs the number of "e"s it contains. 
     The program should take the filename from an argument on the command line. 
 
-[**Link to Code**](/tbc/)
+[**Link to Code**](https://github.com/ssteffens/pands-problem-sheet/blob/main/es.py)
 
 <br />
 
@@ -78,7 +69,6 @@
 
 <br />
 
-**References:** 
+[**Link to Code**](https://github.com/ssteffens/pands-problem-sheet/blob/main/plottask.py)
 
-[**Link to Code**](/tbc/)
-
+[**Link to Plot**](https://github.com/ssteffens/pands-problem-sheet/blob/main/plottask.png)
